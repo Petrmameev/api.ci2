@@ -29,15 +29,14 @@
         "default": 0
       },
       "currency": {
-        "type": "string"
-      },
-      "currency_type": {
-        "enum": [
-          "RUR",
-          "USD"
-        ]
+        "type": "string",
+        "value": {
+          "enum": [
+            "RUR",
+            "USD"
+          ]
+        }
       }
-    },
-    "additionalProperties": true
+    }
   }
 }
